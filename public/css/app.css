@@ -74,42 +74,37 @@
 
 /* style section 2 hy */
 .second_section{
-    width: 80vw;
-    height: 50vh;
     display: flex;
     justify-content: space-around;
-    }
-    .pdiv1_second_section{
-        width: 60%;
+        color: darkblue;
+}
+.second_section_button{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: brown 1px solid;
+    border-radius: 8px;
+}
+.pdiv2_second_section{
     display: flex;
-    flex-direction: column;
-    }
-    .h2_second_section{
-    color:rgb(5, 5, 99) ;
-    }
-    .second_section_button{
-    height: 10%;
-    width: 30%;
-    border: 0;
-    border-radius: 5%;
-    background-color: orangered;
-    }
-    .pdiv2_second_section{
-    
+    width: 50%;
+    justify-content: space-around;
+    flex-direction: row;
+} 
+.child_div2_second_section{
+    width: 200px;
+    height: 250px;
+    border: 2px white solid;
+    box-shadow: 1px 1px 15px -10px black;
 
-        
-    }
-    .child_div2_second_section{
-        width: 30%;
-    display: flex;
-    }
-    .imgs_second_section{
-    width: 5%;
-    height: 7%;
-    }
-    .h3s_second_section{
-        color:rgb(5, 5, 99) ;
-    }
-    .p_ss2{
-        color:rgb(5, 5, 99) ;
-    }
+}
+.sa1{
+    margin-left: 40%;
+    margin-top: 5px;
+    font-size: 30px;
+    color: red;
+    border: 2px white solid;
+    box-shadow: 1px 1px 15px -10px black;
+    
+}

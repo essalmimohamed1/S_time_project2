@@ -72,3 +72,44 @@
     font-size: 15px;
 }
 
+/* style section 2 hy */
+.second_section{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    }
+    .pdiv1_second_section{
+        width: 60%;
+    display: flex;
+    flex-direction: column;
+    }
+    .h2_second_section{
+    color:rgb(5, 5, 99) ;
+    }
+    .second_section_button{
+    height: 10%;
+    width: 30%;
+    border: 0;
+    border-radius: 5%;
+    background-color: orangered;
+    }
+    .pdiv2_second_section{
+    
+
+        
+    }
+    .child_div2_second_section{
+        width: 30%;
+    display: flex;
+    }
+    .imgs_second_section{
+    width: 5%;
+    height: 7%;
+    }
+    .h3s_second_section{
+        color:rgb(5, 5, 99) ;
+    }
+    .p_ss2{
+        color:rgb(5, 5, 99) ;
+    }

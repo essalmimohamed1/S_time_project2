@@ -189,7 +189,8 @@ body {
     text-align: center;
     background-color:  rgb(57, 65, 128);
     color: white;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    border-top-right-radius: 100px;
 }
 
 .ftr-nav {

@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 .nav1{
     display: flex;
     justify-content: space-around;
@@ -11,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    width: 40%;
+    width: 55%;
 
 }
 .a1{
@@ -107,4 +111,97 @@
     border: 2px white solid;
     box-shadow: 1px 1px 15px -10px black;
     
+}
+
+/* final section */
+
+.full-form , .footerr{
+    font-family: sans-serif;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100vw;
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.bluee , ::placeholder{
+    color: rgb(57, 65, 128);
+}
+
+.redd {
+    color: rgb(247, 0, 78);;
+}
+
+.name-email {
+    background-color: rgba(35, 77, 247, 0.136);
+    border: none;
+    height: 40px;
+    width: 40vw;
+}
+
+.msg {
+    background-color: rgba(35, 77, 247, 0.136);
+    border: none;
+    height: 100px;
+    width: 80.5vw;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px 50px 50px ;
+    border: none;
+    background-color: rgb(247, 0, 78);
+    color: aliceblue;
+   text-align: center; 
+   text-decoration: none;
+   margin: 20px;
+   font-weight: bold;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.footerr {
+    padding-top: 30px;
+    text-align: center;
+    background-color:  rgb(57, 65, 128);
+    color: white;
+    padding-bottom: 20px
+}
+
+.ftr-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ftr-nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+.iconss {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 30px;
 }

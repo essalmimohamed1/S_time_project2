@@ -101,7 +101,7 @@ body {
 } 
 .child_div2_second_section{
     width: 200px;
-    height: 250px;
+    /* height: 250px; */
     border: 2px white solid;
     box-shadow: 1px 1px 15px -10px black;
 
@@ -208,4 +208,89 @@ body {
     justify-content: center;
     gap: 40px;
     font-size: 30px;
+}
+.fa-solid {
+    display: none;
+}
+
+@media (max-width: 426px) {
+    body {
+        
+    }
+    .nav1 {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        width: 80vw;
+        left: -100%;
+        background-color: rgba(255, 0, 0, 0.95);
+        box-shadow: 10px 10px 50px 0 black;
+    }
+
+    .nav2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-solid {
+        display: block;
+        position: fixed;
+        right: 0%;
+        font-size: 40px;
+    }
+
+    label>.fa-solid:checked ~ .nav1 {
+         left: 0%;
+    }
+
+    img {
+        width: 300px;
+    }
+
+
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .se1 ,p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .se1>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        justify-content: center;
+    }
+
+    .second_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .pdiv2_second_section , .child_div2_second_section {
+        padding: 20px ;
+        gap :10px
+        
+        
+    }
+    .pdiv1_second_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }

@@ -209,9 +209,10 @@ body {
     gap: 40px;
     font-size: 30px;
 }
-.fa-solid {
+.check{
     display: none;
 }
+
 
 @media (max-width: 426px) {
     body {
@@ -233,15 +234,15 @@ body {
         flex-direction: column;
     }
 
-    .fa-solid {
+    .check{
         display: block;
         position: fixed;
+        height: 50px;
+        width: 50px;
         right: 0%;
-        font-size: 40px;
     }
-
-    label>.fa-solid:checked ~ .nav1 {
-         left: 0%;
+    .check:checked + nav{
+        left: 0%;
     }
 
     img {

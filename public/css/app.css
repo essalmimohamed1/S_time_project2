@@ -336,6 +336,11 @@ body {
         justify-content: center;
         align-items: center;
     }
-
+    .pdiv2_second_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }

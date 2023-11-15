@@ -213,7 +213,10 @@ body {
     display: none;
 }
 
-.label {
+.label1 {
+    display: none;
+}
+.logo2{
     display: none;
 }
 
@@ -228,6 +231,7 @@ body {
         height: 80vh;
         width: 80vw;
         left: -100%;
+        top: 0;
         transition: 0.5s;
         background-color: darkblue;
         box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.61);
@@ -238,11 +242,19 @@ body {
     }
 
     .logo {
-        color: white;
-    }
+        display: none;
 
+    }
+    .logo2{
+        display: flex;
+        position: fixed;
+        color: darkblue;
+        justify-content: start;
+    }
     .label {
         display: flex;
+        color: darkblue;
+        font-size: 10px;
     }
 
     .nav2 {
@@ -252,10 +264,12 @@ body {
         row-gap: 10px;
     }
 
-    .label {
+    .label1 {
         display: flex;
         position: fixed;
         font-size: 30px;
+        top: 1%;
+        right: 2%;
     }
 
     .check{
@@ -266,6 +280,7 @@ body {
         right: 10px;
     }
     .check:checked ~ nav{
+        top: 0;
         left: 0%;
     }
     
